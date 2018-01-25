@@ -1,16 +1,9 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
 
 ---
 
 **Finding Lane Lines on the Road**
-
-The goals / steps of this project are the following:
-* Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
 
 
 [//]: # (Image References)
@@ -29,7 +22,6 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 
 ### 2. Identify potential shortcomings with your current pipeline
-
 
 One potential shortcoming would be what would happen when the output of hough function provided too many stright line that is actually not a lane. The polyfit will not fit a right lane in such cases.
 
